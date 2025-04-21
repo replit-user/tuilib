@@ -14,7 +14,7 @@ tui.main(main)
 ```python
 from tuilib import tui
 def main(stdscr):
-    options = ["banana","fruit","cherry","apple"]
+    options = ["banana","grape","cherry","apple"]
     choice = tui.list_selector(stdscr,options)
     tui.func_exit(stdscr)
     print("you chose",choice)
@@ -29,7 +29,7 @@ ok I fixed it anyway
 
 from tuilib import tui
 def main(stdscr):
-    name:str = tui.real_time_input(stdscr,"what is yourt name?: ")
+    name:str = tui.real_time_input(stdscr,"what is your name?: ")
     tui.func_exit(stdscr)
     print("hello",name)
 tui.main(main)
