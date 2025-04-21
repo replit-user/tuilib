@@ -56,6 +56,7 @@ class tui:
         input_str = ""
         stdscr.clear()
         while True:
+            stdscr.clear()
             stdscr.addstr(f"{prompt}{input_str}")
             stdscr.refresh()
 
