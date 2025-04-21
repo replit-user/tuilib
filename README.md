@@ -45,4 +45,6 @@ to install:
 ```bash
 
 pip install tuilib
+
+pip install windows-curses #only if you are on windows
 ```
