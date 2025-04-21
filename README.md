@@ -23,7 +23,17 @@ tui.main(main)
 
 # real time input
 
-dosn't work, too lazy to fix
+ok I fixed it anyway
+
+```python
+
+from tuilib import tui
+def main(stdscr):
+    name:str = tui.real_time_input(stdscr,"what is yourt name?: ")
+    tui.func_exit(stdscr)
+    print("hello",name)
+tui.main(main)
+```
 
 # stdscr functions
 

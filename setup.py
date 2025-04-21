@@ -5,7 +5,7 @@ with open("README.md","r") as f:
 
 setup(
     name='tuilib',  # Your library name
-    version='1.1.2.0',  # Initial version
+    version='1.1.5.1',  # Initial version
     description='A Python library for creating Terminal User Interfaces using curses',
     long_description=data,
     long_description_content_type="text/markdown",
