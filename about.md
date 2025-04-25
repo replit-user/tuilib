@@ -7,4 +7,4 @@ pip install tuilib
 
 this library was mostly made by chatgpt with me adding a method and fixing a couple bugs
 
-current version: 1.0.2.0
+current version: 3.0.1.0
