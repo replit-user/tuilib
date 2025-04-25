@@ -35,6 +35,7 @@ def main(stdscr):
 tui.main(main)
 ```
 
+
 # stdscr functions
 
 same as the curses library
@@ -45,6 +46,4 @@ to install:
 ```bash
 
 pip install tuilib
-
-pip install windows-curses #only if you are on windows
 ```

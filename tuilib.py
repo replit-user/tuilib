@@ -75,8 +75,7 @@ class tui:
     
     def func_exit(stdscr):
         curses.endwin()
-
-
-
+    
+    
     def main(func):
         curses.wrapper(func)
