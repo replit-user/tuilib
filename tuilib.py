@@ -67,7 +67,7 @@ class tui:
             elif key == 10:  # Enter key
                 break
             elif key == 127:  # Backspace key
-                input_str = input_str[:-1]
+                input_str = list[input_str].remove(input_str[-1])
             else:
                 input_str += chr(key)
 
